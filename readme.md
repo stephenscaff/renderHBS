@@ -1,7 +1,7 @@
 # RenderHBS
 
-A utility to compile and render handlebars templates from a data sourc. Uses
-the Fetch API, so polyfilel that if need be.
+A utility to compile and render handlebars templates (client side) from a data source.
+Uses the Fetch API, so polyfill that if need be.
 
 ES5 and ES6 versions included.
 
