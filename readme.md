@@ -13,11 +13,13 @@ Include in your project, and go like:
  /**
   * Render Articles
   */
- var articlesData = articles_data;
- var renderArticles = document.querySelector('#js-articles');
- var articleTemplate ='templates/article.hbs';
+import RenderHBS from '../components/_RenderHBS.js'
 
- RenderHBS.init(articlesData, renderArticles, articleTemplate)
+var data = articles_data;
+var el = document.querySelector('#js-articles');
+var template ='templates/article.hbs';
+
+RenderHBS.init(data, el, template)
 ```
 
 With some Handlebars template like:
